@@ -23,7 +23,7 @@ public class Division {
                 }
                 this.numeros.add(num);
             }
-            catch (NumberFormatException error){
+            catch (Exception error){
                 JOptionPane.showMessageDialog(null, "Ingrese un numero válido.", "Dividir", JOptionPane.ERROR_MESSAGE);
                 continue;
             }

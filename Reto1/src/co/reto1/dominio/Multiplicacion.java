@@ -20,7 +20,7 @@ public class Multiplicacion {
                 Double num = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese un numero: ", "Multiplicar", JOptionPane.INFORMATION_MESSAGE));
                 this.numeros.add(num);
             }
-            catch(NumberFormatException error){
+            catch(Exception error){
                 JOptionPane.showMessageDialog(null, "Ingrese un numero válido.","Multiplicar", JOptionPane.ERROR_MESSAGE);
                 continue;
             }

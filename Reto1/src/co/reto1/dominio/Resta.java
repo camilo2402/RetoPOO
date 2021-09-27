@@ -19,7 +19,7 @@ public class Resta {
                 double num = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese un numero: ", "Restar", JOptionPane.INFORMATION_MESSAGE));
                 numeros.add(num);
             }
-            catch(NumberFormatException error){
+            catch(Exception error){
                 JOptionPane.showMessageDialog(null, "Ingrese un numero válido.","Restar", JOptionPane.ERROR_MESSAGE);
                 continue;
             }

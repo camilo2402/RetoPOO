@@ -18,7 +18,7 @@ public class Suma {
                 Double numero = Double.valueOf(JOptionPane.showInputDialog(null, "Ingrese un numero: ", "Sumar", JOptionPane.QUESTION_MESSAGE));
                 numeros.add(numero);
             }
-            catch(NumberFormatException error){
+            catch(Exception error){
                 JOptionPane.showMessageDialog(null, "Ingrese un numero válido.","Sumar", JOptionPane.ERROR_MESSAGE);
                 continue;
             }
